@@ -1,0 +1,46 @@
+
+.row-level{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  width: 96%;
+  border-style: solid;
+  border-width: 3px;
+  margin: 10px 10px 10px 10px;
+  padding: 5px;
+  z-index: 99;
+}
+.my-box{
+  /*position: relative;*/
+  width: 24px;
+  height: 24px;
+  border: 1px;
+  border-color: aquamarine;
+  margin: 2px;
+}
+.tooltip {
+  width: 24px;
+  height: 24px;
+}
+.tooltiptext {
+  visibility: hidden;
+  background-color: black;
+  color: #fff;
+  font-size: 14px;
+  padding: 5px;
+  border-radius: 6px;
+  z-index: 1;
+}
+.tooltip:hover .tooltiptext {
+  position: fixed;
+  width: 400px;
+  height: auto;
+  visibility: visible;
+  margin-top: 50px;
+}
+.p0_color{  background-color: #EDEDED;}
+.p1_color{  background-color: #D0D0D0;}
+.p2_color{  background-color: #B5B5B5;}
+.p3_color{  background-color: #696969;}
+.p4_color{  background-color: #FF748C;}
+.p5_color{  background-color: #FF002D;}
